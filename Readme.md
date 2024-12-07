@@ -28,24 +28,7 @@ The frontend is built with React.js and communicates with the backend using REST
 Frontend Folder Structure
 
 
-frontend/
-├── public/
-│   └── index.html           # Entry point for the frontend
-├── src/
-│   ├── components/          
-│   │   ├── Navbar.js        # Navbar component (navigation menu)
-│   │   ├── Register.js      # User registration form
-│   │   ├── Login.js         # User login form
-│   │   ├── TrainAvailability.js # Train search component
-│   │   ├── BookSeat.js      # Seat booking form
-│   │   └── BookingDetails.js # Display booking details
-│   ├── App.js               # Main React component, routing and structure
-│   ├── index.js             # React entry point for rendering
-│   └── utils/
-│       └── api.js           # API utility for making requests to the backend
-├── .env                     # Environment variables (e.g., API URL)
-├── package.json             # Project dependencies and scripts
-└── README.md                # Project documentation
+![backend1](https://github.com/HarshitGoyal12/booking_system/blob/main/assets/backend1.png)
 
 
 
