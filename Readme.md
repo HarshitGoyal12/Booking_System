@@ -27,8 +27,9 @@ The frontend is built with React.js and communicates with the backend using REST
 
 Frontend Folder Structure
 
+![frontend1](https://github.com/HarshitGoyal12/booking_system/blob/main/assets/frontend1.png)
 
-![backend1](https://github.com/HarshitGoyal12/booking_system/blob/main/assets/backend1.png)
+
 
 
 
@@ -54,27 +55,7 @@ Backend Setup
 The backend is built using Node.js, Express.js, and MySQL. It provides the necessary APIs for user registration, login, train search, and booking functionalities.
 
 Backend Folder Structure
-backend/
-├── config/
-│   └── db.js                # MySQL database connection setup
-├── controllers/
-│   ├── authController.js    # Handles user registration and login logic
-│   ├── trainController.js   # Manages train CRUD operations
-│   ├── bookingController.js # Manages booking operations
-├── models/
-│   ├── User.js              # User model for database
-│   ├── Train.js             # Train model for database
-│   └── Booking.js           # Booking model for database
-├── routes/
-│   ├── authRoutes.js        # Routes for user authentication
-│   ├── trainRoutes.js       # Routes for train management
-│   └── bookingRoutes.js     # Routes for booking operations
-├── middlewares/
-│   └── authMiddleware.js    # JWT authentication middleware
-├── server.js                # Main server setup (Express)
-├── .gitignore               # Git ignore file
-├── package.json             # Project dependencies and scripts
-└── README.md                # Project documentation
+![backend1](https://github.com/HarshitGoyal12/booking_system/blob/main/assets/backend1.png)
 
 
 
